@@ -7,3 +7,36 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared style */
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+}
+.display-flex{
+    display: flex;
+}
+.text-color-dark-2{
+    color: #424242;
+}
+.bg-primary{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header style */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list{
+    gap: 30px;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+}
+.navbar,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
